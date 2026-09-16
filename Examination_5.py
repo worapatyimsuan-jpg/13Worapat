@@ -8,3 +8,5 @@
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 unit = int(input())
+Input:int (input("value: ")) # type: ignore
+Output: (unit * 3 if unit <= 50 else unit * 4 if unit <= 100 else unit * 5) # type: ignore
