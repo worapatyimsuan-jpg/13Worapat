@@ -6,4 +6,5 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-color = input()
+Input: สีของสัญญาณไฟ ("red", "yellow", "green")
+Output: ("Stop" if color == "red" else "Slow" if color == "yellow" else "Go" if color == "green" else "Invalid") # type: ignore
