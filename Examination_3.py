@@ -6,4 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+from tokenize import String
+
+
 password = input()
+Input: ข้อความรหัสผ่าน (String) # type: ignore
+Output:("Pass" if len(password) >= 8 else "Too Short")
