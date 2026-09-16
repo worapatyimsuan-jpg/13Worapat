@@ -6,4 +6,10 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-total_minutes = int(input())
+def new_func():
+    total_minutes = int(input(""))
+    num1= int (input(""))
+    num2= int (input(""))
+    Output=("num1+num2")
+
+new_func()
